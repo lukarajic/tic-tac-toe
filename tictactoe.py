@@ -41,7 +41,7 @@ def check_for_empty(position):
 def check_if_full(grid):
     """
     Checks if the grid has all 9 spots occupied
-    :param grid: List[Union[int or str]]
+    :param grid: List[Union[int, str]]
     :return: bool
     """
     return grid.count(' ') == 0
@@ -51,7 +51,7 @@ def check_if_full(grid):
 def print_grid(grid):
     """
     Prints the current state of the grid
-    :param grid: List[Union[int or str]]
+    :param grid: List[Union[int, str]]
     :return: None
     """
     print('     |     |')
@@ -73,7 +73,7 @@ def check_for_win(grid, char):
     """
     Checks to see if either the user or computer has a winning combination
     currently on the board
-    :param grid: List[Union[int or str]]
+    :param grid: List[Union[int, str]]
     :param char: str
     :return: bool
     """
