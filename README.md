@@ -1,2 +1,2 @@
 # tic-tac-toe
-A game of tic-tac-toe with AI which changes its moves depending on the moves of the user
+A simple game of tic-tac-toe where the user plays against the computer which uses an algorithm to adapt its moves based on the state of the game
