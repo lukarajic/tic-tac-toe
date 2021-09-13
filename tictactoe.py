@@ -144,7 +144,7 @@ def computer_move():
     for k in potential_moves:
         if k in [0, 2, 6, 8]:
             open_corners.append(k)
-    if len(open_corners):
+    if open_corners:
         return random.choice(open_corners)
 
     # Computer looks to take the center if it's open
@@ -156,8 +156,8 @@ def computer_move():
     for k in potential_moves:
         if k in [1, 3, 5, 7]:
             open_spaces.append(k)
-    if len(open_spaces):
-        return random.choice(open_corners)
+    if open_spaces:
+        return random.choice(open_spaces)
 
     return -1
 
